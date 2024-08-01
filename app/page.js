@@ -123,7 +123,7 @@ export default function Home() {
               type='text'
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className='p-2 border w-full text-center'
+              className='p-2 border w-full text-center  text-black'
               placeholder='Search items'
             />
           </div>
